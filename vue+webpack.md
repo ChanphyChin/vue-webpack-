@@ -14,6 +14,14 @@
 4. 开启服务器
     *$ npm run dev
 ## 按需加载
+***
+const Foo = resolve => {
+  // require.ensure 是 Webpack 的特殊语法，用来设置 code-split point
+  // （代码分块）
+  require.ensure(['./Foo.vue'], () => {
+    resolve(require('./Foo.vue'))
+  })
+}
 [vue-router](https://router.vuejs.org/zh-cn/advanced/lazy-loading.html)
 ## 组件化开发
 1. component目录下创建.vue组件
