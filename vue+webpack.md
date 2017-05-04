@@ -14,6 +14,7 @@
 4. 开启服务器
     *$ npm run dev
 ## 按需加载
+* [vue-router](https://router.vuejs.org/zh-cn/advanced/lazy-loading.html)
 ***
 const Foo = resolve => {
   // require.ensure 是 Webpack 的特殊语法，用来设置 code-split point
@@ -22,7 +23,6 @@ const Foo = resolve => {
     resolve(require('./Foo.vue'))
   })
 }
-[vue-router](https://router.vuejs.org/zh-cn/advanced/lazy-loading.html)
 ## 组件化开发
 1. component目录下创建.vue组件
 2. 组件格式: 
@@ -53,4 +53,4 @@ const Foo = resolve => {
       }
 3. 路由状态中必须添加next方法，否则会阻断路由跳转
 
-    [路由钩子](https://router.vuejs.org/zh-cn/advanced/navigation-guards.html)
+*[路由钩子](https://router.vuejs.org/zh-cn/advanced/navigation-guards.html)
