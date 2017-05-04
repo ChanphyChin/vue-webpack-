@@ -16,13 +16,13 @@
 ## 按需加载
 * [vue-router](https://router.vuejs.org/zh-cn/advanced/lazy-loading.html)
 ***
-const Foo = resolve => {
-  // require.ensure 是 Webpack 的特殊语法，用来设置 code-split point
-  // （代码分块）
-  require.ensure(['./Foo.vue'], () => {
-    resolve(require('./Foo.vue'))
-  })
-}
+      const Foo = resolve => {
+        // require.ensure 是 Webpack 的特殊语法，用来设置 code-split point
+        // （代码分块）
+        require.ensure(['./Foo.vue'], () => {
+          resolve(require('./Foo.vue'))
+        })
+      }
 ***
 ## 组件化开发
 1. component目录下创建.vue组件
