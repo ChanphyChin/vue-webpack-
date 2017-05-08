@@ -56,3 +56,8 @@
 3. 路由状态中必须添加next方法，否则会阻断路由跳转
 
 * [路由钩子](https://router.vuejs.org/zh-cn/advanced/navigation-guards.html)
+
+
+4.nginx方向代理服务器或者用vue-cli中的proxyTable解决
+* [proxyTable](http://www.jianshu.com/p/95b2caf7e0da)
+* 目录在config文件夹的index.js文件中
