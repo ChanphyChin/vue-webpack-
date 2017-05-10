@@ -1,4 +1,4 @@
-# 官方vue-cli手脚架vue2.0 + webpack2.0 项目构建
+## 官方vue-cli手脚架vue2.0 + webpack2.0 项目构建
 1. 采用vue-cli
 2. 按需加载
 3. 组件化开发
@@ -61,3 +61,6 @@
 4.nginx方向代理服务器或者用vue-cli中的proxyTable解决
 * [proxyTable](http://www.jianshu.com/p/95b2caf7e0da)
 * 目录在config文件夹的index.js文件中
+
+## vue常用状态钩子
+* [vue生命周期钩子](https://cn.vuejs.org/v2/api/#选项-生命周期钩子)
